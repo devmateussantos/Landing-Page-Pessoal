@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus dos Santos - Portfólio de Programação</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para ícones do Font Awesome, Busca, User e Redes sociais.  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<!-- Corpo do site, landing page para portifólio. -->
+
+<body>
+
+    <div class="main-container">
+
+        <header class="header">
+            <div class="logo">
+                <h1>Dev Mateus Santos</h1>
+            </div>
+
+            <!-- Menu de navegação do cabeçalho. -->
+
+            <nav class="nav">
+                <div class="nav-links">
+                    <a href="#about">Sobre</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                <div class="nav-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section, Primeira área que o visitante vê. -->
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Olá, eu sou Mateus dos santos, técnico em Análise e Desenvolvimento de Sistemas.</h2>
+                <p>Construindo soluções elegantes, uma linha de código por vez.</p>
+            </div>
+            <div class="hero-graphic">
+                <img src="imagens/Gráfico Abstrato de Programação.png" alt="Gráfico abstrato de programação">
+            </div>
+        </section>
+
+         <!-- Área principal que abriga todo o conteúdo da página, sobre, projetos e contato. -->
+
+        <main class="main-content">
+
+            <!-- Seção sobre mim, com foto, descrição e miniaturas de projetos. -->
+
+            <section id="about" class="about-area">
+                <div class="about-header">
+                    <img src="imagens/Foto Perfil.jpeg" alt="Sua foto de perfil" class="profile-pic">
+                    <div class="about-text">
+                        <h3>Mateus dos Santos</h3>
+                    </div>
+                </div>
+                <p>"Aos 34 anos, estou reinventando minha trajetória profissional trago a maturidade e a dedicação de uma carreira anterior para o desenvolvimento de software. Impulsionado pela paixão em criar <strong>soluções inovadoras e eficientes</strong>, sou movido pela busca constante por aprendizado e aprimoramento. Com um olhar atento aos detalhes, transformo ideias complexas em <strong>códigos funcionais e de alta qualidade.</strong> Acredito que a s<strong>implicidade e a clareza</strong> são fundamentais para construir softwares de excelência."</p>
+
+                <div class="about-thumbnails">
+                    <img src="https://via.placeholder.com/150x100?text=Projeto+A" alt="Miniatura de projeto A">
+                    <img src="https://via.placeholder.com/150x100?text=Projeto+B" alt="Miniatura de projeto B">
+                    <img src="https://via.placeholder.com/150x100?text=Projeto+C" alt="Miniatura de projeto C">
+                </div>
+            </section>
+
+            <!-- Seção de projetos com as técnologias utilizadas e breve descrição. -->
+
+
+            <div class="projects-contact-wrapper">
+                
+                <section id="projects" class="projects-area">
+                    <h3>Projetos</h3>
+                    
+                    <div class="project-item">
+                        <h4>Projeto 1 - HTML, CSS, JS</h4>
+                        <p>Descrição do seu projeto pessoal usando tecnologias puras. Destaque o que ele faz e o que você aprendeu.</p>
+                    </div>
+                    
+                    <div class="project-item">
+                        <h4>Projeto 2 - Framework X</h4>
+                        <p>Descrição de um projeto mais avançado usando um framework. Mostre o nível de conhecimento intermediário.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>Projeto 3 - Framework Y</h4>
+                        <p>Descrição do seu projeto mais complexo, demonstrando conhecimento avançado e domínio de frameworks.</p>
+                    </div>
+                </section>
+
+                <!-- Seção de contato com formulário simples. -->
+
+                <section id="contact" class="contact-area">
+                    <h3>Contato</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                            <span id="name-error" class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <span id="email-error" class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+
+            </div>
+
+        </main>
+        
+        <!-- Rodapé com links para redes sociais e direitos autorais. -->
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://github.com/devmateussantos" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/MateusDs91" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mateus.oficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright-text">Copyright 2025 Mateus dos Santos. All rights reserved.</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
